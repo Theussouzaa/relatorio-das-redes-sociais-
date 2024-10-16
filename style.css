@@ -1,0 +1,47 @@
+:root{
+    --azul: #0f78a8;
+--ciano: #12e7f7;
+--azul-escuro: #0d083b;
+--azul-claro: #6199ff;
+--preto: #000;
+--branco: #fff;
+--font:"Times New Roman', Times, serif"
+}
+
+body{background-color: var(--azul-escuro);
+color: var(--ciano);
+font-family: 'Times New Roman', Times, serif;
+height: 100vh;
+margin: 0;
+}
+
+header{
+    background-color: var(--azul-claro);
+    text-align: center;
+    padding: 1px;  
+}
+
+h1{
+    font-size: 2rem;
+    color: var(--preto);
+    font-weight: 700;
+    font-family:'Times New Roman', Times, serif;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+font-weight: 400;
+}
+nav a{
+    text-decoration: none;
+    color: var(--preto);
+    margin:0 2rem 1rem 0rem;
+    font-size: 1.2rem;
+}
+
+nav a:hover{
+text-decoration: underline;
+transform: scale(0,90);
+transition: transform(0.1s);
+}
